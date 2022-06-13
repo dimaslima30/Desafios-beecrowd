@@ -1,0 +1,12 @@
+var = input()
+a, b, c = var.split(" ")
+a = int(a)
+b = int(b)
+c = round(float(c), 2)
+valor1 = b*c
+d, e, f = input().split(" ")
+d = int(d)
+e = int(e)
+f = round(float(f), 2)
+total = float(b*c) + float(e*f)
+print('VALOR A PAGAR: R$%.2f'%total)
